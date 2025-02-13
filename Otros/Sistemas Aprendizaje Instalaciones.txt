@@ -1,0 +1,37 @@
+SPYDER
+
+!conda list (listar paquetes instalados)
+!conda install -c conda-forge scikit-learn (Para instalar scikit-learn dentro de la carpeta escondida (ruta C:\Users\juan_\AppData\Local\spyder-6\Scripts))
+
+
+
+PYTHON (DESDE CONSOLA)
+
+-Crear entorno
+	python -m venv nombre_entorno (Dentro del directorio de Python)
+
+-Activar entorno
+	nombre_entorno\Scripts\actívate
+
+-Desactivarlo
+	deactivate
+
+-Instalar paquetes
+	python -m pip install paquetes
+
+
+
+
+
+INSTALAR EXTENSIONES PARA MACHINE LEARNING
+Listar los PIP instalados:
+python -m pip list
+
+Pandas
+python -m pip install pandas
+Scikit-learn
+python -m pip install scikit-learn
+Matplotlib
+python -m pip install matplotlib
+Seaborn
+python -m pip install seaborn
